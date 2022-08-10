@@ -4,15 +4,10 @@ import { Link } from "react-router-dom";
 
 
 function Navigation(){
-    let [fontSize, setFontSize] = useState("22px")
-    const logScroll = (e) => {
 
-        window.scrollY > 50 ? setFontSize("16px") : setFontSize("22px")
-    }
-    window.addEventListener('scroll', logScroll)
 
     return (
-        <nav className="nav" style={{fontSize : fontSize}}>
+        <nav className="nav">
             <ul>
                 <Link to='/'>
                     <li className="nav-li">Accueil</li>
@@ -27,6 +22,9 @@ function Navigation(){
                     <li className="nav-li">Contact</li>
                 </Link>
             </ul>
+            <div className="logo">
+                <div>LOGO</div>
+            </div>
         </nav>
     )
  

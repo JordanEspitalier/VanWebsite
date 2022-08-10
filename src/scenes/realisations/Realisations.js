@@ -6,12 +6,19 @@ import RealisationCard from "../../components/cards/RealisationCard";
 function Realisations(){
     return (
         <div className="realisations">
-            <h1>REALISATIONS</h1>
             <section className="realisation-card_section">
-                <RealisationCard />
-                <RealisationCard />
-                <RealisationCard />
-                <RealisationCard />
+                <div className="realisation-card_container">
+                    <RealisationCard />
+                </div>
+                <div className="realisation-card_container-mod">
+                    <RealisationCard />
+                </div>
+                <div className="realisation-card_container">
+                    <RealisationCard />
+                </div>
+                <div className="realisation-card_container-mod">
+                    <RealisationCard />
+                </div>
             </section>
         </div>
     )

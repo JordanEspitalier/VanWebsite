@@ -1,13 +1,12 @@
 .Caroussel {
     margin-top: 3em;
     position: relative;
-    height: 80vh;
+    z-index: 100;
+    height: 70vh;
     width: 50vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    user-select: none;
-    border: 4px solid white;
     border-radius: 10px;
     animation-name: entry;
     animation-duration: 1s;

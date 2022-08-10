@@ -8,7 +8,7 @@ function HomePage(){
         console.log(window.scrollY)
 
     }
-    window.addEventListener('scroll', logScroll)
+    //window.addEventListener('scroll', logScroll)
 
 
 
@@ -16,8 +16,9 @@ function HomePage(){
                 <div className="homePage">
                     <section className="first-section">
                         <div className='first-section_paragraph'>
-                            <h1>ACCEUIL</h1>
-                            <h2>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
+                            <h1>AMENAGEMENT <br/> <span>AUTHENTIQUE</span> <br/> ECOLOGIQUE</h1>
+                            <p>Enfin un aménagement à la hauteur de votre voyage !
+Oublions le camping-car traditionnel, basique, plastique et impersonnel. Aujourd’hui offrez-vous la liberté de vous sentir comme chez vous. </p>
                         </div>
                         <div className='caroussel-section'>
                             <Caroussel />
