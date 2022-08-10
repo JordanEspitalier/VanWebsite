@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Hind:wght@300;400;500;600;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+$color_main : rgb(243, 240, 215);
+$color_main_2 : rgb(172, 216, 175);
+$color_annexe : rgb(236, 171, 85);
+$color_annexe_2 : rgb(93, 61, 100);
+$font_title : 'Acme', sans-serif;
+$font_small_title : 'Hind', sans-serif;
+$font_text : 'Quattrocento Sans', sans-serif;
+
+h1{
+    font-family: $font_title;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    font-family: $font_small_title;
+    font-size: 35px;
+}
+
+nav{
+    font-family: $font_small_title;
+}

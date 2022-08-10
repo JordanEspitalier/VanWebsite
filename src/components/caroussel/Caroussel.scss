@@ -1,0 +1,87 @@
+.Caroussel {
+    margin-top: 3em;
+    position: relative;
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    border: 4px solid white;
+    border-radius: 10px;
+    animation-name: entry;
+    animation-duration: 1s;
+}
+
+@keyframes entry {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.goLeft{
+    position: absolute;
+    left: -0.1%;
+    width: 10%;
+    height: 100.1%;
+    background-color: rgba($color: #d1d1d1, $alpha: 0);
+    user-select: none;
+    cursor: pointer;
+    transition: 1s ease;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.goRight{
+    position: absolute;
+    left: 90%;
+    width: 10%;
+    height: 100.1%;
+    background-color: rgba($color: #d1d1d1, $alpha: 0);
+    user-select: none;
+    cursor: pointer;
+    cursor: pointer;
+    transition: 1s ease;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8 px;
+}
+
+.goLeft:hover{
+    background-color: rgba($color: #d1d1d1, $alpha: 0.8);
+
+}
+
+.goLeft:target {
+    background-color: blue;
+}
+
+.goRight:hover{
+    background-color: rgba($color: #d1d1d1, $alpha: 0.8);
+
+}
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+
+.slide.active{
+    width: 91%;
+    height: 91%;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.10);
+}
+.slide-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+
