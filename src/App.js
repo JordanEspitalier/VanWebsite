@@ -11,6 +11,7 @@ import HomePage from './scenes/homePage/HomePage';
 import Contact from './scenes/contact/Contact';
 import Realisations from './scenes/realisations/Realisations';
 import Prestations from './scenes/prestations/Prestations';
+import Admin from "./scenes/admin/Admin";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path='/prestations' element={<Prestations />}/>
             <Route path='/realisations' element={<Realisations />}/>
             <Route path='/contact' element={<Contact />}/>
+            <Route path='/admin' element={<Admin />}/>
           </Routes>
       </Router>
     </div>

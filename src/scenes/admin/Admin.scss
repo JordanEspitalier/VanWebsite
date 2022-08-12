@@ -1,0 +1,32 @@
+.admin{
+    background-color: $color_main;
+    height: 100vh;
+    width: 100vw;
+}
+
+.admin-nav{
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+}
+
+.admin-nav div {
+    border : 2px solid black;
+    border-radius: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    transition: 0.5s ease;
+    user-select: none;
+    cursor: pointer;
+}
+
+.admin-nav div:hover {
+    transform: scale(1.20);
+    background-color: $color_annexe;
+    color: $color_main;
+
+}
